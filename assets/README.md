@@ -2,7 +2,7 @@
 ## Get the Crypto.com Chain Crossfire binary
 
 We will be using **Linux** for illustration. Binary for
-[Mac](https://github.com/crypto-com/chain-main/releases/download/v0.8.0-crossfire/chain-main_0.8.0-crossfire_Darwin_x86_64.tar.gz) and [Windows](https://github.com/crypto-com/chain-main/releases/download/v0.8.0-crossfire/chain-main_0.8.0-crossfire_Windows_x86_64.zip) are also available. See also the [release notes](https://github.com/crypto-com/chain-main/releases/tag/v0.8.0-crossfire)
+[Mac](https://github.com/crypto-com/chain-main/releases/download/v0.8.0-crossfire/chain-main_0.8.0-crossfire_Darwin_x86_64.tar.gz) and [Windows](https://github.com/crypto-com/chain-main/releases/download/v0.8.0-crossfire/chain-main_0.8.0-crossfire_Windows_x86_64.zip) are also available. See also the [release notes](https://github.com/crypto-com/chain-main/releases/tag/v0.8.0-crossfire).
 
 - To install Crypto.com Chain released binaries from github:
 
@@ -67,7 +67,7 @@ We will be using **Linux** for illustration. Binary for
     pubkeys: []
     ```
 
-    **Remarks** : If I did not show the key as expected, (i.e. It gives you an empty output `[]` ), kindly add the `--keyring-backend="file"` instead, for example: 
+    **Remarks** : If the key did not show up as expected, (i.e. It gives you an empty output `[]` ), kindly add the `--keyring-backend="file"` instead, for example: 
     ```bash 
     $ ./chain-maind keys add cross-fire-file-keyring --keyring-backend="file"
     ```
