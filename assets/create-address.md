@@ -1,5 +1,5 @@
 
-## Get the Crypto.com Chain Crossfire binary
+## Step 1 - Get the Crypto.com Chain Crossfire binary
 
 We will be using **Linux** for illustration. Binary for
 [Mac](https://github.com/crypto-com/chain-main/releases/download/v0.8.0-crossfire/chain-main_0.8.0-crossfire_Darwin_x86_64.tar.gz) and [Windows](https://github.com/crypto-com/chain-main/releases/download/v0.8.0-crossfire/chain-main_0.8.0-crossfire_Windows_x86_64.zip) are also available. See also the [release notes](https://github.com/crypto-com/chain-main/releases/tag/v0.8.0-crossfire).
@@ -21,7 +21,7 @@ We will be using **Linux** for illustration. Binary for
     ```
 
 
-## Create a new key and address for Crossfire
+## Step 2 - Create a new key and address for Crossfire
 
 - Using the crossfire binary, run the following command to create a new key. For example, you can create a key with the name of `cross-fire-testing` by:
 
@@ -54,7 +54,7 @@ We will be using **Linux** for illustration. Binary for
     You should obtain an address with `cro` prefix, e.g. `cro1uayxmr8597lfg27q2zngphnmdwjnkdhadsdc3x`. This will be the address we would need you to provide for initial allocation of funds.
 
 
-- List and check your key: We should be able to see the key `cross-fire-testing` while using the `keys list` command: 
+- Before proceeding, make sure you can list the key: We should be able to see the key `cross-fire-testing` while using the `keys list` command: 
 
     ```bash 
     $ ./chain-maind keys list
