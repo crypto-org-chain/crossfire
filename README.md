@@ -1,7 +1,5 @@
 
-## NOTE : The mainnet dryrun competition - Crossfire is NOT YET STARTED, we will be providing the docs, genesis.json and peers(connection seed )  here in this repository later. 
-
-
+## NOTE : The Mainnet Dry-Run Competition - Crossfire is NOT YET STARTED, we will be providing the docs, genesis.json and peers (connection seeds) here in this repository later. 
 
 ## Description
 
