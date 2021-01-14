@@ -7,9 +7,7 @@
 
 ## Registration
 
-Register from 13:00 UTC, 17 December 2020 to 12:59 UTC, 11 January 2021
-
-Sign up to become a validator [here](https://forms.gle/cSU9NbcXBPDjsC6DA/).
+Registration has been closed.
 
 ## Competition Period
 
@@ -28,6 +26,11 @@ Our security team has provided a security checklist for participants to follow-u
 We strongly recommend every participant to read and follow the steps in the checklist to get prepared.
 
 You can find the checklist [here](./assets/Crypto.com_Mainnet_Dry-run_Crossfire_Security_Checklist.pdf)
+
+
+## Task details and Terms & Conditions
+
+See this [link](https://blog.crypto.com/crypto-com-chain-crossfire-mainnet-dry-run-details/). We may update the details from time-to-time. You should visit the tasks details page regularly to stay with the latest updates.
 
 ## Useful links
 
