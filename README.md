@@ -18,6 +18,17 @@ Sign up to become a validator [here](https://forms.gle/cSU9NbcXBPDjsC6DA/).
 
 Learn about the different stages of the competition [here](https://blog.crypto.com/crypto-com-chain-crossfire-mainnet-dry-run-details/).
 
+
+## Security Checklist
+
+One of the goal of the Crossfire competition is to get our future validators to get prepared and have a secure validator node setup.
+
+Our security team has provided a security checklist for participants to follow-up before joining the Crossfire competition. It covers items regarding validator node setup, system, network; and account security. You can also run the audit script provided to make sure your system configuration is following the best practices.
+
+We strongly recommend every participant to read and follow the steps in the checklist to get prepared.
+
+You can find the checklist [here](./assets/Crypto.com_Mainnet_Dry-run_Crossfire_Security_Checklist.pdf)
+
 ## Useful links
 
 - [Event website](https://chain.crypto.com/crossfire)
