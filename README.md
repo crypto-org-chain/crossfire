@@ -21,7 +21,7 @@ Learn about the different stages of the competition [here](https://blog.crypto.c
 
 ## Security Checklist
 
-One of the goal of the Crossfire competition is to get our future validators to get prepared and have a secure validator node setup.
+One of the goals of the Crossfire competition is to get our future validators to get prepared and have a secure validator node setup.
 
 Our security team has provided a security checklist for participants to follow-up before joining the Crossfire competition. It covers items regarding validator node setup, system, network; and account security. You can also run the audit script provided to make sure your system configuration is following the best practices.
 
