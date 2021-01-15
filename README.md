@@ -24,6 +24,12 @@ You can find the latest Terms and Conditions; and task details [here](https://bl
 
 We recommend all participants to check the details regularly and stay tune to our communication channels for the latest updates.
 
+## Participants Primary Address and Primary Node
+
+You can find the latest list of Particpant Primary Address and Primary Node [here](./testnet-participants.json).
+
+Please make sure your addresses and moniker are correct in this file because information on the list will be used for judging your eligibility in the competition tasks.
+
 ## Security Checklist
 
 One of the goals of the Crossfire competition is to get our future validators to get prepared and have a secure validator node setup.
