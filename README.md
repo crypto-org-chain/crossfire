@@ -26,6 +26,8 @@ We recommend all participants to check the details regularly and stay tune to ou
 
 ## Participants Primary Address and Primary Node
 
+Last updatd at: **15th January 2021 09:20:00 UTC**
+
 You can find the latest list of Particpant Primary Address and Primary Node [here](./testnet-participants.json).
 
 Please make sure your addresses and moniker are correct in this file because information on the list will be used for judging your eligibility in the competition tasks.
