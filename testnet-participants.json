@@ -786,82 +786,182 @@
   },
   {
     "operatorAddress": "crocncl1uheua4cgw2cpgn0n3pkcewn9czst0zg9hz3g38",
-    "moniker": "SebastianSVK",
-    "primaryAddress": "cro1uheua4cgw2cpgn0n3pkcewn9czst0zg950jpnm"
+    "primaryAddress": "cro1uheua4cgw2cpgn0n3pkcewn9czst0zg950jpnm",
+    "moniker": "SebastianSVK"
   },
   {
     "operatorAddress": "crocncl1uctqj3gk42ad7j9fw3yjxqfjzapz6cpu27hlug",
-    "moniker": "cf-corenting",
-    "primaryAddress": "cro1uctqj3gk42ad7j9fw3yjxqfjzapz6cpufn5k75"
+    "primaryAddress": "cro1uctqj3gk42ad7j9fw3yjxqfjzapz6cpufn5k75",
+    "moniker": "cf-corenting"
   },
   {
     "operatorAddress": "crocncl100r4yf9kp2nl9h2tz8n8h3cgen0hkz5ptqrd03",
-    "moniker": "bananapi",
-    "primaryAddress": "cro100r4yf9kp2nl9h2tz8n8h3cgen0hkz5pgdqydd"
+    "primaryAddress": "cro100r4yf9kp2nl9h2tz8n8h3cgen0hkz5pgdqydd",
+    "moniker": "bananapi"
   },
   {
     "operatorAddress": "crocncl13zxtc6rguzqdc4g43z0rwesdd5w7t2haqvs9mh",
-    "moniker": "Staking Fund",
-    "primaryAddress": "cro13zxtc6rguzqdc4g43z0rwesdd5w7t2harpnvet"
+    "primaryAddress": "cro13zxtc6rguzqdc4g43z0rwesdd5w7t2harpnvet",
+    "moniker": "Staking Fund"
   },
   {
     "operatorAddress": "crocncl1mc4lrv00guzfldp6mhkzn29lgf86a48aw46x2v",
-    "moniker": "Vision",
-    "primaryAddress": "cro1mc4lrv00guzfldp6mhkzn29lgf86a48adce0gs"
+    "primaryAddress": "cro1mc4lrv00guzfldp6mhkzn29lgf86a48adce0gs",
+    "moniker": "Vision"
   },
   {
     "operatorAddress": "crocncl1q0pc534fjvul2m8glhhqmuv5v2qglscvruyqre",
-    "moniker": "UbikCapital",
-    "primaryAddress": "cro1q0pc534fjvul2m8glhhqmuv5v2qglscvq38fp9"
+    "primaryAddress": "cro1q0pc534fjvul2m8glhhqmuv5v2qglscvq38fp9",
+    "moniker": "UbikCapital"
   },
   {
     "operatorAddress": "crocncl1gsqpyh9ptvfrjxzjcvctu42ncgxrhdpswgwlea",
-    "moniker": "cronode01",
-    "primaryAddress": "cro1gsqpyh9ptvfrjxzjcvctu42ncgxrhdpsd9dkmp"
+    "primaryAddress": "cro1gsqpyh9ptvfrjxzjcvctu42ncgxrhdpsd9dkmp",
+    "moniker": "cronode01"
   },
   {
     "operatorAddress": "crocncl1q25zs8g6ul4hk4sryejxa7fzly6f9wgm24trxh",
-    "moniker": "Wormchester-Crossfire-Node",
-    "primaryAddress": "cro1q25zs8g6ul4hk4sryejxa7fzly6f9wgmfcg2yt"
+    "primaryAddress": "cro1q25zs8g6ul4hk4sryejxa7fzly6f9wgmfcg2yt",
+    "moniker": "Wormchester-Crossfire-Node"
   },
   {
     "operatorAddress": "crocncl10f0g2vxdjpyrms0ctj7rv82xwruvz9dm3h9gxh",
-    "moniker": "deepblue",
-    "primaryAddress": "cro10f0g2vxdjpyrms0ctj7rv82xwruvz9dmj6xpyt"
+    "primaryAddress": "cro10f0g2vxdjpyrms0ctj7rv82xwruvz9dmj6xpyt",
+    "moniker": "deepblue"
   },
   {
     "operatorAddress": "crocncl1h4e5t00cp8jm7utjht6uhrspep22vchgwam8fd",
-    "moniker": "ValiCROfy",
-    "primaryAddress": "cro1h4e5t00cp8jm7utjht6uhrspep22vchgdscwt3"
+    "primaryAddress": "cro1h4e5t00cp8jm7utjht6uhrspep22vchgdscwt3",
+    "moniker": "ValiCROfy"
   },
   {
     "operatorAddress": "crocncl1mh8k5h723mltps4rts7j09jjth040zujmrfgmt",
-    "moniker": "Silvanosw",
-    "primaryAddress": "cro1mh8k5h723mltps4rts7j09jjth040zujcw2peh"
+    "primaryAddress": "cro1mh8k5h723mltps4rts7j09jjth040zujcw2peh",
+    "moniker": "Silvanosw"
   },
   {
     "operatorAddress": "crocncl1ffkcpc7tqkvc4wl4p9rha9g9rjq4yr9r9vjyhu",
-    "moniker": "team-thrive-node",
-    "primaryAddress": "cro1ffkcpc7tqkvc4wl4p9rha9g9rjq4yr9rxp3d4q"
+    "primaryAddress": "cro1ffkcpc7tqkvc4wl4p9rha9g9rjq4yr9rxp3d4q",
+    "moniker": "team-thrive-node"
   },
   {
     "operatorAddress": "crocncl1t7hyspqyxyngzfe5cfd6qwddzl2c9exyd0ep7f",
-    "moniker": "Titan01",
-    "primaryAddress": "cro1t7hyspqyxyngzfe5cfd6qwddzl2c9exywz6gu4"
+    "primaryAddress": "cro1t7hyspqyxyngzfe5cfd6qwddzl2c9exywz6gu4",
+    "moniker": "Titan01"
   },
   {
     "operatorAddress": "crocncl1lu07npyva3xzk9ylna3j4lacmlrmsaz84p9zlg",
-    "moniker": "figment",
-    "primaryAddress": "cro1lu07npyva3xzk9ylna3j4lacmlrmsaz8kvxta5"
+    "primaryAddress": "cro1lu07npyva3xzk9ylna3j4lacmlrmsaz8kvxta5",
+    "moniker": "figment"
   },
   {
     "operatorAddress": "crocncl1nzlh333ngts36kqxg9fk6ss0rnp3zhz8t3c5gy",
-    "moniker": "Molfar",
-    "primaryAddress": "cro1nzlh333ngts36kqxg9fk6ss0rnp3zhz8guma2c"
-  },
+    "primaryAddress": "cro1nzlh333ngts36kqxg9fk6ss0rnp3zhz8guma2c",
+    "moniker": "Molfar"
+  }
   {
     "operatorAddress": "crocncl1zefw80hwaqhadkg82tte7k4rsrdnel2xunvhzw",
     "moniker": "captainStart",
     "primaryAddress": "cro1zefw80hwaqhadkg82tte7k4rsrdnel2xl707qj"
+  },
+  {
+    "operatorAddress": "crocncl1dfrxt4p89zn9cuzvsrmxl5ler393rlafxk788j",
+    "primaryAddress": "cro1dfrxt4p89zn9cuzvsrmxl5ler393rlaf9maw9w",
+    "moniker": "balfouri"
+  },
+  {
+    "operatorAddress": "crocncl1zw0v55xcrz9cfkusqv9e2hrlannsah5hyjx9ja",
+    "primaryAddress": "cro1zw0v55xcrz9cfkusqv9e2hrlannsah5h8l9vsp",
+    "moniker": "basliking"
+  },
+  {
+    "operatorAddress": "crocncl1ezcra8clqy4k8n5xp36fxslgtaf7xtq4xrlsem",
+    "primaryAddress": "cro1ezcra8clqy4k8n5xp36fxslgtaf7xtq49wuem8",
+    "moniker": "cromagnon"
+  },
+  {
+    "operatorAddress": "crocncl1rtqp26y4z9pshwv3w06uqd3dt7myxth4uh247d",
+    "primaryAddress": "cro1rtqp26y4z9pshwv3w06uqd3dt7myxth4l6fuu3",
+    "moniker": "dhjensen"
+  },
+  {
+    "operatorAddress": "crocncl1klu5kc84evu7hg9lr5r9qugjhgvpza8dqllfm4",
+    "primaryAddress": "cro1klu5kc84evu7hg9lr5r9qugjhgvpza8drjuqef",
+    "moniker": "dudonode"
+  },
+  {
+    "operatorAddress": "crocncl1wnlwwwms5fkvpsl4sevxe8lzf96qe8cymtfh98",
+    "primaryAddress": "cro1wnlwwwms5fkvpsl4sevxe8lzf96qe8cycx278m",
+    "moniker": "ErikFin-node"
+  },
+  {
+    "operatorAddress": "crocncl1wzhzsxvt00vwtp6c2tc94jtp6acd6sjvdjz53h",
+    "primaryAddress": "cro1wzhzsxvt00vwtp6c2tc94jtp6acd6sjvwlpant",
+    "moniker": "FrodoBeginz"
+  },
+  {
+    "operatorAddress": "crocncl17k8ysc4ncwntvkvca9p2he3e9ssazc9h228jmr",
+    "primaryAddress": "cro17k8ysc4ncwntvkvca9p2he3e9ssazc9hf8ymel",
+    "moniker": "Gasteiz"
+  },
+  {
+    "operatorAddress": "crocncl1vt59x40m8g8c598evsgjsqhln5jwj2l6nu7ymf",
+    "primaryAddress": "cro1vt59x40m8g8c598evsgjsqhln5jwj2l6s3ade4",
+    "moniker": "greshnikKing"
+  },
+  {
+    "operatorAddress": "crocncl1a6gcxf2nge3ksn76v9t8wwfte5h5p3v30grc0c",
+    "primaryAddress": "cro1a6gcxf2nge3ksn76v9t8wwfte5h5p3v3v9q3dy",
+    "moniker": "KANU"
+  },
+  {
+    "operatorAddress": "crocncl1zx2nylyd6cahauq294w06xd3e9z4lv8xahvvgy",
+    "primaryAddress": "cro1zx2nylyd6cahauq294w06xd3e9z4lv8x76092c",
+    "moniker": "mas_node"
+  },
+  {
+    "operatorAddress": "crocncl1xdgycg95rte484zy773tnaaxst48fwk903rq0e",
+    "primaryAddress": "cro1xdgycg95rte484zy773tnaaxst48fwk9vuqfd9",
+    "moniker": "mjolnir"
+  },
+  {
+    "operatorAddress": "crocncl1y9l4q7n4h92n75vzet7h9kttk8rxw5zwxeuwwk",
+    "primaryAddress": "cro1y9l4q7n4h92n75vzet7h9kttk8rxw5zw95l8v2",
+    "moniker": "PrivetCRO"
+  },
+  {
+    "operatorAddress": "crocncl1h8znnu6jprpeszfndgntdth2tfdrcjy6hdz5xc",
+    "primaryAddress": "cro1h8znnu6jprpeszfndgntdth2tfdrcjy65qpayy",
+    "moniker": "russian.sakh"
+  },
+  {
+    "operatorAddress": "crocncl1vvresd6fv26nv2q9tlkqncuggzqrxtuutt6llk",
+    "primaryAddress": "cro1vvresd6fv26nv2q9tlkqncuggzqrxtuugxeka2",
+    "moniker": "sales1man"
+  },
+  {
+    "operatorAddress": "crocncl1mxfyx480ca0yjaqxvy72s8syt734eephra96hx",
+    "primaryAddress": "cro1mxfyx480ca0yjaqxvy72s8syt734eephqsxn46",
+    "moniker": "smert"
+  },
+  {
+    "operatorAddress": "crocncl1wxy3a8le7pzf9zm5yfm4xywzaggl73h5q3luxc",
+    "primaryAddress": "cro1wxy3a8le7pzf9zm5yfm4xywzaggl73h5ruu4yy",
+    "moniker": "Terminator"
+  },
+  {
+    "operatorAddress": "crocncl1uv2y0fhm8vahk72n2aqnjx5l70h0g0ghk3cfsy",
+    "primaryAddress": "cro1uv2y0fhm8vahk72n2aqnjx5l70h0g0gh4umqjc",
+    "moniker": "thundercrypto-node"
+  },
+  {
+    "operatorAddress": "crocncl1n20dkae34pna8zc98dujvhtymraxazxas3u634",
+    "primaryAddress": "cro1n20dkae34pna8zc98dujvhtymraxazxanulnnf",
+    "moniker": "twsonaws-one"
+  },
+  {
+    "operatorAddress": "crocncl1h6hm4g35mma2s8c43j4qmt857e8atp8chm9k7s",
+    "primaryAddress": "cro1h6hm4g35mma2s8c43j4qmt857e8atp8c5kxluv",
+    "moniker": "Venera"
   }
 ]
