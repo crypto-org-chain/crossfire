@@ -785,6 +785,81 @@
     "primaryAddress": "cro1z6yexx08eqqevdcm4zyywft92esgf6m7638qxd"
   },
   {
+    "operatorAddress": "crocncl1uheua4cgw2cpgn0n3pkcewn9czst0zg9hz3g38",
+    "moniker": "SebastianSVK",
+    "primaryAddress": "cro1uheua4cgw2cpgn0n3pkcewn9czst0zg950jpnm"
+  },
+  {
+    "operatorAddress": "crocncl1uctqj3gk42ad7j9fw3yjxqfjzapz6cpu27hlug",
+    "moniker": "cf-corenting",
+    "primaryAddress": "cro1uctqj3gk42ad7j9fw3yjxqfjzapz6cpufn5k75"
+  },
+  {
+    "operatorAddress": "crocncl100r4yf9kp2nl9h2tz8n8h3cgen0hkz5ptqrd03",
+    "moniker": "bananapi",
+    "primaryAddress": "cro100r4yf9kp2nl9h2tz8n8h3cgen0hkz5pgdqydd"
+  },
+  {
+    "operatorAddress": "crocncl13zxtc6rguzqdc4g43z0rwesdd5w7t2haqvs9mh",
+    "moniker": "Staking Fund",
+    "primaryAddress": "cro13zxtc6rguzqdc4g43z0rwesdd5w7t2harpnvet"
+  },
+  {
+    "operatorAddress": "crocncl1mc4lrv00guzfldp6mhkzn29lgf86a48aw46x2v",
+    "moniker": "Vision",
+    "primaryAddress": "cro1mc4lrv00guzfldp6mhkzn29lgf86a48adce0gs"
+  },
+  {
+    "operatorAddress": "crocncl1q0pc534fjvul2m8glhhqmuv5v2qglscvruyqre",
+    "moniker": "UbikCapital",
+    "primaryAddress": "cro1q0pc534fjvul2m8glhhqmuv5v2qglscvq38fp9"
+  },
+  {
+    "operatorAddress": "crocncl1gsqpyh9ptvfrjxzjcvctu42ncgxrhdpswgwlea",
+    "moniker": "cronode01",
+    "primaryAddress": "cro1gsqpyh9ptvfrjxzjcvctu42ncgxrhdpsd9dkmp"
+  },
+  {
+    "operatorAddress": "crocncl1q25zs8g6ul4hk4sryejxa7fzly6f9wgm24trxh",
+    "moniker": "Wormchester-Crossfire-Node",
+    "primaryAddress": "cro1q25zs8g6ul4hk4sryejxa7fzly6f9wgmfcg2yt"
+  },
+  {
+    "operatorAddress": "crocncl10f0g2vxdjpyrms0ctj7rv82xwruvz9dm3h9gxh",
+    "moniker": "deepblue",
+    "primaryAddress": "cro10f0g2vxdjpyrms0ctj7rv82xwruvz9dmj6xpyt"
+  },
+  {
+    "operatorAddress": "crocncl1h4e5t00cp8jm7utjht6uhrspep22vchgwam8fd",
+    "moniker": "ValiCROfy",
+    "primaryAddress": "cro1h4e5t00cp8jm7utjht6uhrspep22vchgdscwt3"
+  },
+  {
+    "operatorAddress": "crocncl1mh8k5h723mltps4rts7j09jjth040zujmrfgmt",
+    "moniker": "Silvanosw",
+    "primaryAddress": "cro1mh8k5h723mltps4rts7j09jjth040zujcw2peh"
+  },
+  {
+    "operatorAddress": "crocncl1ffkcpc7tqkvc4wl4p9rha9g9rjq4yr9r9vjyhu",
+    "moniker": "team-thrive-node",
+    "primaryAddress": "cro1ffkcpc7tqkvc4wl4p9rha9g9rjq4yr9rxp3d4q"
+  },
+  {
+    "operatorAddress": "crocncl1t7hyspqyxyngzfe5cfd6qwddzl2c9exyd0ep7f",
+    "moniker": "Titan01",
+    "primaryAddress": "cro1t7hyspqyxyngzfe5cfd6qwddzl2c9exywz6gu4"
+  },
+  {
+    "operatorAddress": "crocncl1lu07npyva3xzk9ylna3j4lacmlrmsaz84p9zlg",
+    "moniker": "figment",
+    "primaryAddress": "cro1lu07npyva3xzk9ylna3j4lacmlrmsaz8kvxta5"
+  },
+  {
+    "operatorAddress": "crocncl1nzlh333ngts36kqxg9fk6ss0rnp3zhz8t3c5gy",
+    "moniker": "Molfar",
+    "primaryAddress": "cro1nzlh333ngts36kqxg9fk6ss0rnp3zhz8guma2c"
+  },
+  {
     "operatorAddress": "crocncl1zefw80hwaqhadkg82tte7k4rsrdnel2xunvhzw",
     "moniker": "captainStart",
     "primaryAddress": "cro1zefw80hwaqhadkg82tte7k4rsrdnel2xl707qj"
