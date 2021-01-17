@@ -998,5 +998,15 @@
       "operatorAddress": "crocncl1ry52yuqunrdu22ydqf7hlrnu408l4y9c0274mj",
       "primaryAddress": "cro1ry52yuqunrdu22ydqf7hlrnu408l4y9cv8auew",
       "moniker": "millenet"
+  },
+  {
+      "operatorAddress": "crocncl1sckrtpf5u4mjya3ncn26px5adxnsu23nhm7w3s",
+      "primaryAddress": "cro1sckrtpf5u4mjya3ncn26px5adxnsu23n5ka8nv",
+      "moniker": "AUXBOURG"
+  },
+  {
+      "operatorAddress": "crocncl18dvgsyct0qe8vl6c7dmm2md9csd7axrzzk7574",
+      "primaryAddress": "cro18dvgsyct0qe8vl6c7dmm2md9csd7axrzpmaauf",
+      "moniker": "HelloPacket"
   }
 ]
