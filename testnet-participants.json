@@ -1005,6 +1005,11 @@
       "moniker": "AUXBOURG"
   },
   {
+      "operatorAddress": "crocncl1ctvu9g6vf796670j82ftdcp4q33w2tm88h2ujf",
+      "primaryAddress": "cro1ctvu9g6vf796670j82ftdcp4q33w2tm8y6f4s4",
+      "moniker": "Hakkija"
+  },
+  {
       "operatorAddress": "crocncl18dvgsyct0qe8vl6c7dmm2md9csd7axrzzk7574",
       "primaryAddress": "cro18dvgsyct0qe8vl6c7dmm2md9csd7axrzpmaauf",
       "moniker": "HelloPacket"
