@@ -1010,6 +1010,11 @@
       "moniker": "Hakkija"
   },
   {
+      "operatorAddress": "crocncl1ggcgzwt4rgkqk2dlpaxmqefjzh7dyj398hlg7n",
+      "primaryAddress": "cro1ggcgzwt4rgkqk2dlpaxmqefjzh7dyj39y6upu0",
+      "moniker": "Libertas"
+  },
+  {
       "operatorAddress": "crocncl18dvgsyct0qe8vl6c7dmm2md9csd7axrzzk7574",
       "primaryAddress": "cro18dvgsyct0qe8vl6c7dmm2md9csd7axrzpmaauf",
       "moniker": "HelloPacket"
