@@ -40,6 +40,18 @@ We strongly recommend every participant to read and follow the steps in the chec
 
 You can find the checklist [here](./assets/Crypto.com_Mainnet_Dry-run_Crossfire_Security_Checklist.pdf)
 
+## Alchemy API Services
+
+We are happy to announce our partnership with Alchemy, which will facilitate the integration of the Crypto.com Chain with robust and reliable API services. https://blog.crypto.com/crypto-com-partners-with-alchemy-for-the-crypto-com-chain/
+
+As a Crossfire participant, you can become an early adopter of the Alchemy API services that are specifically designed for the Crossfire Mainnet Dry-Run network. With the APIs, you can:
+- Query and monitor your node status
+- Query on-chain data to fulfill the tasks (e.g. Monitor network upgrade proposals)
+
+You can now register your account below to access to the exclusive Alchemy API Services from Crossfire: https://www.alchemyapi.io/crypto-dot-com
+
+(Please note that the API service has a rate limit. Therefore, it is recommended that you use the APIs for chain monitoring purposes (and not for transaction spamming), as you may exceed the usage limit, which would affect your performance in the competition.)
+
 ## Useful links
 
 - [Event website](https://chain.crypto.com/crossfire)
