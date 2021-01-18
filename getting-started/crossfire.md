@@ -2,10 +2,6 @@
 
 This is detailed documentation for setting up a Validator or a full node on Crypto.com Crossfire mainnet dry run.
 
-
-**WARNING: This is a work-in-progress docs. DO NOT try to connected to the CROSSFIRE NETWORK BEFORE 04:00 UTC, 18 January 2021.**
-
-
 ### Supported OS
 
 We officially support macOS, Windows and Linux only. Other platforms may work but there is no guarantee. We will extend our support to other platforms after we have stabilized our current architecture.
@@ -17,8 +13,6 @@ To run Crypto.com Chain nodes, you will need a machine with the following minimu
 - Dual-core, x86_64 architecture processor;
 - 4GB RAM;
 - 100GB of storage space.
-
-
 
 ## Step 1 - Get the Crypto.com Chain Crossfire binary
 
@@ -32,15 +26,13 @@ We will be using **Linux** for illustration. Binary for
   $ tar -zxvf chain-main_0.8.0-crossfire_Linux_x86_64.tar.gz
   ```
 
-*Remarks for macOS user*: You might have to go to the `Security and Privacy` to approve the execution of `chain-maind`. 
-
+_Remarks for macOS user_: You might have to go to the `Security and Privacy` to approve the execution of `chain-maind`.
 
 - Before proceeding, make sure you are running the crossfire binary (`0.8.0-crossfire`) by checking the version of `chain-maind`:
-    ```bash
-    $ ./chain-maind version
-    0.8.0-crossfire 
-    ```
-
+  ```bash
+  $ ./chain-maind version
+  0.8.0-crossfire
+  ```
 
 ## Step 2. Configure `chain-maind`
 
@@ -97,8 +89,9 @@ TODO:UPDATE SEED
   ```bash
   $ sed -i.bak -E 's#^(persistent_peers[[:space:]]+=[[:space:]]+).*$#\1" [SEED] "# ; s#^(create_empty_blocks_interval[[:space:]]+=[[:space:]]+).*$#\1"5s"#' ~/.chain-maind/config/config.toml
   ```
-::: tip STATE-SYNC
-[STATE-SYNC](https://docs.tendermint.com/master/tendermint-core/state-sync.html) is supported in Crossfire! 🎉
+
+  ::: tip STATE-SYNC
+  [STATE-SYNC](https://docs.tendermint.com/master/tendermint-core/state-sync.html) is supported in Crossfire! 🎉
 
 With state sync your node will download data related to the head or near the head of the chain and verify the data. This leads to drastically shorter times for joining a network for validator.
 
@@ -110,6 +103,7 @@ Follow the below optional steps to enable state-sync.
 
 - (Optional) For state-sync configuration, in `~/.chain-maind/config/config.toml`, please modify the configurations of [statesync] `enable`, `rpc_servers`, `trust_height` and `trust_hash` by:
   Also, we suggest using `persistent_peers` instead of `seeds` to to provide stable state-sync experience.
+
   ```bash
   $ LASTEST_HEIGHT=$(curl -s https://crossfire.crypto.com/block | jq -r .result.block.header.height); \
   BLOCK_HEIGHT=$((LASTEST_HEIGHT - 1000)); \
@@ -133,14 +127,31 @@ as sentries (see [Tendermint](https://docs.tendermint.com/master/tendermint-core
 
 ### Step 3-1. Create a new key and address
 
-Run the followings to create a new key. For example, you can create a key will the name `Default` by:
+Selected [participants](https://github.com/crypto-com/crossfire/blob/main/testnet-participants.json) would have a balance of `100,000` tcro in their address, kindly contact with the stuff at the Crossfire channel (under #crossfire): [![Support Server](https://img.shields.io/discord/783264383978569728.svg?color=7289da&label=Crypto.com-Chain&logo=discord&style=flat-square)](https://discord.gg/pahqHz26q4) if that's not the case. 
+
+
+Using the [mnemonic](https://github.com/crypto-com/crossfire/blob/main/assets/create-address.md#step-2---create-a-new-key-and-address-for-crossfire) created earlier, you can restore an existing key by.
 
 ```bash
-  $ ./chain-maind keys add Default
+$ chain-maind keys add [Key_name] --recover 
+> Enter your bip39 mnemonic
+## Enter your 24-word mnemonic here ##
 ```
 
 You should obtain an address with `cro` prefix, e.g. `cro1quw5r22pxy8znjtdkgqc65atrm3x5hg6vycm5n`. This will be the address for performing transactions.
 
+Before proceeding, make sure you can list the key: We should be able to see the key while using the keys list command, for example:
+
+```bash
+$ ./chain-maind keys list
+- name: [Key_name]
+type: local
+address: cro1uayxmr8597lfg27q2zngphnmdwjnkdhadsdc3x
+pubkey: cropub1addwnpepqt255g89h57ttkk2sdklsqn5pcc3z8fecrpe2rh3yka5xn484lx8k6gs8t6
+mnemonic: ""
+threshold: 0
+pubkeys: []
+```
 
 ### Step 3-2. Obtain the validator public key
 
@@ -162,7 +173,7 @@ Once the `chain-maind` has been configured, we are ready to start the node and s
   $ ./chain-maind start
 ```
 
-- *(Optional for Linux)* Start chain-maind with systemd service, e.g.:
+- _(Optional for Linux)_ Start chain-maind with systemd service, e.g.:
 
 ```bash
   $ git clone https://github.com/crypto-com/chain-main.git && cd chain-main
@@ -193,6 +204,7 @@ LimitNOFILE=4096
 [Install]
 WantedBy=multi-user.target
 ```
+
 :::
 
 It should begin fetching blocks from the other peers. Please wait until it is fully synced before moving onto the next step.
@@ -230,17 +242,17 @@ You will be required to insert the following:
 
 - `--from`: The `cro...` address that holds your funds;
 - `--pubkey`: The validator public key( See Step [3-2](#step-3-2-obtain-the-a-validator-public-key) above ) with **crocnclconspub** as the prefix;
-- `--moniker`: A moniker (name) for your validator node;
+- `--moniker`: A moniker (name) for your validator node. **NOTE: Kindly stick to the moniker you have provided earlier in the email**;
 - `--security-contact`: Security contact email/contact method.
 
 Once the `create-validator` transaction completes, you can check if your validator has been added to the validator set:
 
-  ```bash
-  $ ./chain-maind tendermint show-address
-  ## [crocnclcons... address] ##
-  $ ./chain-maind query tendermint-validator-set | grep -c [crocnclcons...]
-  ## 1 = Yes; 0 = Not yet added ##
-  ```
+```bash
+$ ./chain-maind tendermint show-address
+## [crocnclcons... address] ##
+$ ./chain-maind query tendermint-validator-set | grep -c [crocnclcons...]
+## 1 = Yes; 0 = Not yet added ##
+```
 
 To further check if the validator is signing blocks, kindly run this [script](https://github.com/crypto-com/chain-docs/blob/master/docs/getting-started/assets/signature_checking/check-validator-up.sh), for example:
 
@@ -254,6 +266,7 @@ The validator is signing @ Block#<BLOCK_HEIGHT> 👍
 ```
 
 For those who are using tmkms in background([AWS](./testnet-aws-1click.html)/[Azure](./testnet-azure-1click.html) 1-click deployment are using tmkms), you should use `--bechpubkey` the consensus pubkey with prefix `crocnclconspub1....` directly instead of `--pubkey` tendermint pubkey since the node is not using `~/.chain-maind/config/priv_validator_key.json` for signing.
+
 ```bash
 $ curl -sSL https://raw.githubusercontent.com/crypto-com/chain-docs/master/docs/getting-started/assets/signature_checking/check-validator-up.sh | bash -s -- \
 --tendermint-url https://crossfire.crypto.com \
@@ -269,8 +282,8 @@ Alternatively, you can run it on this [browser based IDE](https://repl.it/@allth
 $ cat ~/.chain-maind/config/priv_validator_key.json | jq -r '.pub_key.value'
 ```
 
-
 ## Step 4. Perform Transactions
+
 ### Step 4-1. `query bank balances` - Check your transferable balance
 
 You can check your _transferable_ balance with the `balances` command under the bank module.
@@ -292,7 +305,6 @@ pagination:
 
 ### Step 4-2. `tx bank send ` - Transfer operation
 
-
 Transfer operation involves the transfer of tokens between two addresses.
 
 #### **Send Funds** [`tx bank send <from_key_or_address> <to_address> <amount> <network_id>`]
@@ -301,7 +313,7 @@ Transfer operation involves the transfer of tokens between two addresses.
 
 ```bash
 $ chain-maind tx bank send Default
-tcro1j7pej8kplem4wt50p4hfvndhuw5jprxxn5625q 10tcro --chain-id "crossfire"
+cro1j7pej8kplem4wt50p4hfvndhuw5jprxxn5625q 10tcro --chain-id "crossfire"
   ## Transaction payload##
   {"body":{"messages":[{"@type":"/cosmos.bank.v1beta1.MsgSend","from_address"....}
 confirm transaction before signing and broadcasting [y/N]: y
@@ -320,7 +332,7 @@ To bond funds for staking, you can delegate funds to a validator by the `delegat
 ::: details Example: Delegate funds from `Default` to a validator under the address `tcrocncl16k...edcer`
 
 ```bash
-$ chain-maind tx staking delegate tcrocncl16kqr009ptgken6qsxnzfnyjfsq6q97g3uedcer 100tcro --from Default --chain-id "crossfire"
+$ chain-maind tx staking delegate crocncl16kqr009ptgken6qsxnzfnyjfsq6q97g3uedcer 100tcro --from Default --chain-id "crossfire"
 ## Transactions payload##
 {"body":{"messages":[{"@type":"/cosmos.staking.v1beta1.MsgDelegate"....}
 confirm transaction before signing and broadcasting [y/N]: y
@@ -335,7 +347,7 @@ On the other hand, we can create a `Unbond` transaction to unbond the delegated 
 ::: details Example: Unbond funds from a validator under the address `tcrocncl16k...edcer`
 
 ```bash
-$ chain-maind tx staking unbond tcrocncl16kqr009ptgken6qsxnzfnyjfsq6q97g3uedcer 100tcro --from Default --chain-id "crossfire"
+$ chain-maind tx staking unbond crocncl16kqr009ptgken6qsxnzfnyjfsq6q97g3uedcer 100tcro --from Default --chain-id "crossfire"
 ## Transaction payload##
 {"body":{"messages":[{"@type":"/cosmos.staking.v1beta1.MsgUndelegate"...}
 confirm transaction before signing and broadcasting [y/N]: y
@@ -349,9 +361,5 @@ confirm transaction before signing and broadcasting [y/N]: y
 
 :::
 
-Congratulations! You've successfully setup a Testnet node and performed some of the basic transactions! You may refer to [Wallet Management](https://chain.crypto.com/docs/wallets/cli.html#chain-maind) for more advanced operations and transactions.
+Congratulations! You've successfully setup a node and performed some of the basic transactions! You may refer to [Wallet Management](https://chain.crypto.com/docs/wallets/cli.html#chain-maind) for more advanced operations and transactions.
 
-## Croeseid testnet faucet
-
-- To interact with the blockchain, simply use the [CRO faucet](https://chain.crypto.com/faucet) to obtain test CRO tokens for performing transactions on the **Croeseid** testnet.
-  - Note that you will need to create an [address](#step-3-1-create-a-new-key-and-address) before using the faucet. 
