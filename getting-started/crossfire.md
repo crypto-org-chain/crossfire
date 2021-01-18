@@ -362,3 +362,14 @@ confirm transaction before signing and broadcasting [y/N]: y
 
 Congratulations! You've successfully setup a node and performed some of the basic transactions! You may refer to [Wallet Management](https://chain.crypto.com/docs/wallets/cli.html#chain-maind) for more advanced operations and transactions.
 
+# Crossfire: Running Nodes with 1-click
+
+Since the key address prefix for `crossfire` is `cro...`, one needs to change the `key_format` in `/chain/.tmkms/tmkms.toml` such that tmkms sign with correct address in `crossfire` network.
+
+Before you run `reconfig.sh`, please change the  `key_format` in `/chain/.tmkms/tmkms.toml` as follows:
+
+```
+...
+key_format = { type = "bech32", account_key_prefix = "cropub", consensus_key_prefix = "crocnclconspub" }
+...
+```
