@@ -54,11 +54,11 @@ Before kick-starting your node, we will have to configure your node so that it c
     $ ./chain-maind init pegasus-node --chain-id crossfire
   ```
 
-  ::: tip NOTE
+ **NOTE**
 
   - Depending on your chain-maind home setting, the chain-maind configuration will be initialized to that home directory. To simply the following steps, we will use the default chain-maind home directory `~/.chain-maind/` for illustration.
   - You can also put the `chain-maind` to your binary path and run it by `chain-maind`
-    :::
+
 
 ### Step 2-2 Configurate chain-maind
 
@@ -82,12 +82,11 @@ Before kick-starting your node, we will have to configure your node so that it c
   $ sed -i.bak -E 's#^(minimum-gas-prices[[:space:]]+=[[:space:]]+)""$#\1"0.025basetcro"#' ~/.chain-maind/config/app.toml
   ```
 
-TODO:UPDATE SEED
 
 - For network configuration, in `~/.chain-maind/config/config.toml`, please modify the configurations of `persistent_peers` and `create_empty_blocks_interval` by:
 
   ```bash
-  $ sed -i.bak -E 's#^(persistent_peers[[:space:]]+=[[:space:]]+).*$#\1" [SEED] "# ; s#^(create_empty_blocks_interval[[:space:]]+=[[:space:]]+).*$#\1"5s"#' ~/.chain-maind/config/config.toml
+  $ sed -i.bak -E 's#^(persistent_peers[[:space:]]+=[[:space:]]+).*$#\1"1c43083bc3ed408a20ecd1738200e9ab48026b6b@54.251.113.42:26656,b8f999e37d8446e24862a71b6d4a004400947fe5@3.0.217.55:26656,9e9173fbdfe8d8ee84038782eec0777ee5f33548@3.0.188.186:26656"# ; s#^(create_empty_blocks_interval[[:space:]]+=[[:space:]]+).*$#\1"5s"#' ~/.chain-maind/config/config.toml
   ```
 
   ::: tip STATE-SYNC
