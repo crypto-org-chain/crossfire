@@ -1,6 +1,4 @@
 
-## NOTE : The Mainnet Dry-Run Competition - Crossfire is NOT YET STARTED, we will be providing the docs, genesis.json and peers (connection seeds) here in this repository later. 
-
 ## Description
 
 [Crossfire](https://chain.crypto.com/crossfire) is the Crypto.com Mainnet dry run competition, aimed at stress testing the network in a practical, real-world setting before public release. Crossfire marks an important milestone and final step in preparation for mainnet. Participating Validators have the opportunity to compete with each other while completing tasks.
