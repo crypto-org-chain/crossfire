@@ -50,8 +50,8 @@
       "moniker": "SpiritOne"
   },
   {
-      "operatorAddress": "crocncl13h48x5rl4hts29x4mxgvtnnqj0r65n3mq98zrl",
-      "primaryAddress": "cro13h48x5rl4hts29x4mxgvtnnqj0r65n3mrgytpr",
+      "operatorAddress": "crocncl128mzt3ql0utm49uxrtppjmtaf2xuekdx5c5qhs",
+      "primaryAddress": "cro128mzt3ql0utm49uxrtppjmtaf2xuekdxh4hf4v",
       "moniker": "maverick-node"
   },
   {
@@ -737,7 +737,7 @@
   {
       "operatorAddress": "crocncl1x8vm329llup2mlyp80uggl89d2n63enkp4jvvw",
       "primaryAddress": "cro1x8vm329llup2mlyp80uggl89d2n63enkzc39wj",
-      "moniker": "nebkas.ro [nebkas.ro]"
+      "moniker": "nebkas.ro"
   },
   {
       "operatorAddress": "crocncl1xpxvzx6uay8nv65kzug5dtdtemv52r8lcrryxa",
@@ -1018,5 +1018,10 @@
       "operatorAddress": "crocncl18dvgsyct0qe8vl6c7dmm2md9csd7axrzzk7574",
       "primaryAddress": "cro18dvgsyct0qe8vl6c7dmm2md9csd7axrzpmaauf",
       "moniker": "HelloPacket"
+  },
+  {
+      "operatorAddress": "crocncl1xerru90yvt8zr7sgvn3u9rp35t0z4fkz2pjq58",
+      "primaryAddress": "cro1xerru90yvt8zr7sgvn3u9rp35t0z4fkzfv3fkm",
+      "moniker": "Konung"
   }
 ]
