@@ -1,7 +1,7 @@
 # Security Patch on January 25
 
 ## WARNING
-This is **NOT** part of the [Network Upgrade](https://blog.crypto.com/crypto-com-chain-crossfire-mainnet-dry-run-details#network-upgrade) tasks in the competition but an important security patch that requires immediate attention. All participants are recommended to upgrade to this version immediately to reduce the impact of the potential security issue.
+This is **NOT** part of the [Network Upgrade](https://blog.crypto.com/crypto-com-chain-crossfire-mainnet-dry-run-details#network-upgrade) tasks in the competition but an important security patch that requires immediate attention. All participants are required to upgrade to this version immediately to reduce the impact of the potential security issue.
 
 ## Details
 
