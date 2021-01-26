@@ -3,6 +3,14 @@
 
 [Crossfire](https://chain.crypto.com/crossfire) is the Crypto.com Mainnet dry run competition, aimed at stress testing the network in a practical, real-world setting before public release. Crossfire marks an important milestone and final step in preparation for mainnet. Participating Validators have the opportunity to compete with each other while completing tasks.
 
+## IMPORTANT: Security Patch Released on 25 January
+
+A security patch is released on 25 January. All participants are required to take immediate action by upgrading your node to this version to avoid any potential impact.
+
+Upgrade details can be found [here](./security-patch-jan25).
+
+Note: This is not part of the competition task but an important security patch.
+
 ## Registration
 
 Register from 13:00 UTC, 17 December 2020 to 12:59 UTC, 11 January 2021
