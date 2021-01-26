@@ -50,7 +50,7 @@ https://github.com/crypto-com/chain-main/releases/tag/v0.8.1-crossfire
     $ rm ~/.chain-maind/config/addrbook.json
     ```
 1. Increase your memory pool size:
-    1. Open `~/chain-maind/config/config.toml` with an editor. Replace `~/.chain-maind` with your node home directory if you are using a different one.
+    1. Open `~/.chain-maind/config/config.toml` with an editor. Replace `~/.chain-maind` with your node home directory if you are using a different one.
     1. Look for the tag `[mempool]`
     1. Update the `size` to `20000`:
         ```toml
